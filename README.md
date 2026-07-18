@@ -4,6 +4,11 @@
 
 ![Swift 6](https://img.shields.io/badge/Swift-6-orange) ![Platforms](https://img.shields.io/badge/platforms-iOS%2026%2B-blue) ![SPM](https://img.shields.io/badge/SPM-compatible-brightgreen) ![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="Assets/identity-card-dark.png">
+  <img src="Assets/identity-card-light.png" alt="IdentityCard: live glass icon preview, name field, and an Appearance disclosure row" width="620">
+</picture>
+
 ## What is it?
 
 A small SwiftUI package for editing an entity's *identity* — name, color, and
@@ -27,6 +32,19 @@ display title never invalidates stored data.
 Tiles and swatches are styled by [GlassIconKit](https://github.com/bsurrey/GlassIconKit)'s shared
 preferences (Candy Mode, Round Icons, gradients/shadows toggles), so the
 picker previews exactly the tile the rest of your app will draw.
+
+## What does it look like?
+
+The combined picker — live hero preview, color grid, and icon grid with an
+optional "Default" row — in one full-height sheet:
+
+| Light | Dark |
+|---|---|
+| <img src="Assets/appearance-picker-light.png" alt="Appearance picker sheet in light mode" width="300"> | <img src="Assets/appearance-picker-dark.png" alt="Appearance picker sheet in dark mode" width="300"> |
+
+Validation feedback surfaces right under the name field:
+
+<img src="Assets/identity-card-error.png" alt="IdentityCard showing a validation error under the empty name field" width="620">
 
 ## How do I use it?
 

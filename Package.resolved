@@ -1,0 +1,15 @@
+{
+  "originHash" : "d283317549008bf3768e15aa7a3c0e04baf256ef7843ee22961cda6fae0994b6",
+  "pins" : [
+    {
+      "identity" : "glassiconkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bsurrey/GlassIconKit.git",
+      "state" : {
+        "revision" : "1d30e5ac0825c6504ae21825a4852070dbcaa21e",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
